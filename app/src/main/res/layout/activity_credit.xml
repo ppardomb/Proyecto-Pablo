@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".CreditActivity"
+    android:background="@color/green">
+
+
+    <TextView
+        android:id="@+id/tvVersionInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp" />
+
+    <!-- Descripción de la aplicación -->
+    <TextView
+        android:id="@+id/tvAppDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvVersionInfo"
+        android:layout_marginTop="16dp"
+        android:text="Esta aplicación, es una aplicación que pertence a la empresa emergente de compraventa de dispositivos eléctronicos llamada PulseTech" />
+
+    <!-- Botón "Contactar" -->
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvAppDescription"
+        android:layout_marginTop="16dp"
+        android:text="Contactar" />
+
+</RelativeLayout>
